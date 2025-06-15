@@ -2,13 +2,13 @@ import os
 from openai import AzureOpenAI
 
 client = AzureOpenAI(
-  azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT"),
-  api_key = os.getenv("AZURE_OPENAI_API_KEY"),
-  api_version = "2024-02-01"
+  azure_endpoint = "AZURE_OPENAI_ENDPOINT", 
+  api_key="AZURE_OPENAI_API_KEY",  
+  api_version="2024-02-01"
 )
 
 response = client.chat.completions.create(
-    model="gpt-4o",
+    model="gpt-4o", # model = "deployment_name"
     messages=[
         {"role": "system", "content": "You are a helpful assistant."},
         {"role": "user", "content": "Does Azure OpenAI support customer managed keys?"},
