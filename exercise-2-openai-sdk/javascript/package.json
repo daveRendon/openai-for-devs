@@ -1,2 +1,15 @@
-# package.json
-
+{
+  "name": "openai-js",
+  "version": "1.0.0",
+  "description": "Azure OpenAI JavaScript example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@azure/core-auth": "^1.9.0",
+    "@azure/openai": "^2.0.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.3.1"
+  }
+}
