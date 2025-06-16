@@ -12,7 +12,7 @@ Start in the Azure portal: [https://portal.azure.com](https://portal.azure.com)
    - **Resource Group**: Select the provided resource group.
    - **Name**: Enter a globally unique name.
    - **Location**: Select `East US`.
-   - **Pricing Tier**: Click on *Change Pricing Tier* and choose **Basic**.
+   - **Pricing Tier**: Click on *Change Pricing Tier* and choose **Standard**.
 5. Click **Review + Create**.
 6. Click **Create** after passing validation.
 
