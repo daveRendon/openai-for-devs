@@ -1,4 +1,4 @@
-# OpenAI for Developers 
+# Azure OpenAI for Developers 
 
 This repository provides a complete set of hands-on exercises to help developers get started with the Azure OpenAI Service. It covers everything from basic model deployments to integrating embeddings, building chatbots, leveraging Azure Machine Learning, and operationalizing AI with Azure Functions and vector databases like ChromaDB.
 
