@@ -125,20 +125,30 @@ pip install -r requirements.txt
 ✅ You’ve now completed Exercise 4 using Jupyter Notebooks and Azure OpenAI!
 
 
-Workaround:
+Here’s your **formatted markdown** with clarity and structure:
 
-1. Manually install modules
-   pip install tiktoken
-   pip install numpy
-   pip install pandas
-   pip install python-dotenv
-   pip install azure-identity
-   pip install azure
-   pip install openai
-   pip install tenacity
-   pip install --upgrade openai
-   pip install langchain
-   pip install langchain-community
-   pip install -U langchain-openai
+---
 
-2. Updated code here: https://github.com/daveRendon/open-ai/blob/main/quickstart.ipynb
+## Workaround
+
+To resolve the issue, manually install the required modules:
+
+```bash
+pip install tiktoken
+pip install numpy
+pip install pandas
+pip install python-dotenv
+pip install azure-identity
+pip install azure
+pip install openai
+pip install tenacity
+pip install --upgrade openai
+pip install langchain
+pip install langchain-community
+pip install -U langchain-openai
+```
+
+**Updated code available here:**
+[quickstart.ipynb on GitHub](https://github.com/daveRendon/open-ai/blob/main/quickstart.ipynb)
+
+---
